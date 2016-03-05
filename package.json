@@ -1,0 +1,41 @@
+{
+  "name": "architect-lasso",
+  "description": "Architect.js plugin to expose the lasso library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./service.js",
+  "keywords": [
+    "bundler",
+    "build",
+    "css",
+    "javascript",
+    "concat",
+    "minify",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug",
+      "stampit"
+    ],
+    "provides": [
+      "lasso"
+    ]
+  },
+  "dependencies": {
+    "lasso": "2.1.4",
+    "lasso-autoprefixer": "2.0.0",
+    "lasso-less": "2.1.2",
+    "lasso-marko": "2.0.7",
+    "stream-browserify": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/startersacademy/architect-lasso.git"
+  }
+}
