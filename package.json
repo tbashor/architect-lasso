@@ -1,7 +1,7 @@
 {
   "name": "architect-lasso",
   "description": "Architect.js plugin to expose the lasso library.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Todd Bashor",
     "email": "todd@thestartersacademy.com"
@@ -28,7 +28,7 @@
     ]
   },
   "dependencies": {
-    "lasso": "2.1.5",
+    "lasso": "2.2.*",
     "lasso-autoprefixer": "2.0.0",
     "lasso-less": "2.1.2",
     "lasso-marko": "2.0.7",
